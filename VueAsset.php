@@ -14,6 +14,9 @@ use yii\web\AssetBundle;
  */
 class VueAsset extends AssetBundle
 {
+
+
+    public $jsOptions = ['position' => \yii\web\View::POS_HEAD];
     public $css = [
         
     ];
